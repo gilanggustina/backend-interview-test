@@ -56,7 +56,7 @@ Aplikasi menggunakan **Express + TypeScript** dengan query **raw SQL** (tanpa OR
 
 ## 📁 Folder Structure
 
-src/
+```src/
 ├── app.ts
 ├── server.ts
 ├── config/
@@ -86,6 +86,7 @@ sql/
 logs/
 ├── combined.log
 └── error.log
+```
 
 
 ---
