@@ -1,0 +1,82 @@
+# ----------------------------
+# Node & Package Managers
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ----------------------------
+# Environment Files
+# ----------------------------
+.env
+.env.*.local
+.env.local
+.env.production.local
+.env.development.local
+
+# Jangan ignore .env.example
+!.env.example
+
+# ----------------------------
+# Logs
+# ----------------------------
+logs/
+*.log
+log/
+debug.log
+error.log
+combined.log
+
+# Winston log directory
+logs/*
+
+# ----------------------------
+# Build Output
+# ----------------------------
+dist/
+build/
+tmp/
+temp/
+
+# ----------------------------
+# TypeScript
+# ----------------------------
+*.tsbuildinfo
+
+# ----------------------------
+# OS / IDE / Editor
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# JetBrains IDE files
+*.iml
+out/
+
+# ----------------------------
+# Coverage / Testing
+# ----------------------------
+coverage/
+.nyc_output/
+jest-results.json
+
+# ----------------------------
+# SQL files (DON'T IGNORE)
+# ----------------------------
+# sql/schema.sql should be included for interview
+# If you want to ignore SQL dumps:
+# *.sql
+
+# ----------------------------
+# Others
+# ----------------------------
+*.pid
+*.seed
+.cache/
+j
